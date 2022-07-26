@@ -21,6 +21,28 @@ header {
   background-color: black;
 }
 
+#modal {
+  border-radius: 10px;
+  background-color: maroon;
+  color: white;
+
+  margin: 1em;
+  padding: 1em;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#delete-button {
+  background-color: red
+}
+
 #ramen-menu {
   display: flex;
   overflow-x: auto;
